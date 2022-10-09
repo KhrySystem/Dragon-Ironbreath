@@ -1,1 +1,7 @@
 cmake_minimum_required(VERSION 3.24)
+
+add_library(ironbreath SHARED src/metal_init.cpp)
+target_include_directories(ironbreath PUBLIC ${Dragon_INCLUDE_DIRS})
+target_link_libraries(ironbreath PUBLIC ${Dragon_LINK_LIBRARIES})
+target_link_libraries(ironbreath INTERFACE ${Dragon_LINK_INTERFACES})
+add_library(Dragon::Ironbreath ALIAS ironbreath)
