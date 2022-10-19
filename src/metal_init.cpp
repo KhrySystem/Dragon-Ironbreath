@@ -1,9 +1,9 @@
 #include <dragon/dragon.hpp>
 
-DGAPI void dgIronInit() {
+DGAPI void Dragon::Iron::init() {
 	return;
 }
 
-DGAPI void dgIronTerminate() {
+DGAPI void Dragon::Iron::terminate() {
 	return;
 }

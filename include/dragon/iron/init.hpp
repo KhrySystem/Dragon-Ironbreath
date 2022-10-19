@@ -2,5 +2,7 @@
 
 #include <dragon/dg_backend.hpp>
 
-DGAPI void dgIronInit();
-DGAPI void dgIronTerminate();
+namespace Dragon::Iron {
+	DGAPI void init();
+	DGAPI void terminate();
+}
