@@ -1,7 +1,7 @@
 #include <dragon/iron/dgIron.hpp>
 
-DGAPI void Dragon::Iron::init() {
-	return;
+DGAPI DgBool32 Dragon::Iron::init() {
+	return DG_TRUE;
 }
 
 DGAPI void Dragon::Iron::terminate() {

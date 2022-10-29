@@ -3,6 +3,6 @@
 #include <dragon/backend.hpp>
 
 namespace Dragon::Iron {
-	DGAPI void init();
+	DGAPI DgBool32 init();
 	DGAPI void terminate();
 }
